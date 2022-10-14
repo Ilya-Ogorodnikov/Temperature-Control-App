@@ -1,0 +1,16 @@
+@use '../../../constants/colors' as colors;
+
+.control__button {
+  color: colors.$textColor;
+  background-color: colors.$buttonColor;
+  border: 2px solid colors.$borderColor;
+  cursor: pointer;
+  font-size: 50px;
+  border-radius: 50%;
+  width: 65px;
+  transition: all 0.3s;
+
+  &:hover {
+    scale: 1.2;
+  }
+}

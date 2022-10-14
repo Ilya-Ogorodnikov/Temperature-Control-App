@@ -1,0 +1,20 @@
+@use './constants/colors' as colors;
+
+.content__container {
+  background: colors.$backgroundIndicator;
+  color: colors.$textColor;
+  box-shadow: 7px 7px 5px 0px colors.$colorShadowIndicator;
+  width: 350px;
+  height: 400px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  &-buttons-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+}
